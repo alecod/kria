@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+
+</head>
+
+<body>
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp'>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <link crossorigin="anonymous" href="https://recursos.clubedomalte.com.br//c/fonte-0.css" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://recursos.clubedomalte.com.br//c/malte_fonts.css" rel="stylesheet" />
+
+
+  <style type="text/css">
+    body {
+      padding: 0;
+      margin: 0;
+      background: #000;
+      font-family: "BebasNeue Book", arial;
+    }
+
+    body.kria-faq {
+      background: url(https://recursos.clubedomalte.com.br/i/kria-conselhos/kria-conselhos-topbanner.jpg) no-repeat scroll center top #000;
+      padding: 0;
+      margin: 0;
+      font-family: "BebasNeue Book", arial;
+    }
+
+    .fbits-conteudo-topo {
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+    .fbits-hotsite .fbits-estatica-conteudo {
+      display: none;
+    }
+
+    .fbits-hotsite .content {
+      margin: 5rem 0 0 0 !important;
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+
+    .fbits-estatica-topo .fbits-conteudo-topo section {
+      text-align: center;
+      position: relative;
+      float: left;
+      width: 100%;
+      color: #fff;
+      font-size: 20px;
+      display: block;
+      margin: 0 0 90px 0;
+    }
+
+    .fbits-estatica-topo .fbits-conteudo-topo section .col {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      width: 230px;
+      vertical-align: top;
+      float: none;
+      margin: 0 auto;
+      display: inline-block;
+    }
+
+    .hcontainer {
+      position: relative;
+      display: inline-block;
+      width: 980px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hcontainer h1 {
+      font-family: "BebasNeue Book", arial;
+      font-size: 55px;
+      margin: 1rem 0;
+      font-style: italic;
+      color: #fff;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      font-weight: 300;
+      text-align: left;
+    }
+
+    .bgreen {
+      font-family: "BebasNeue Regular", arial;
+      color: #bbe93d;
+    }
+
+    p span.bgreen {
+      font-family: "Macha", arial;
+    }
+
+    .bwhite {
+      font-family: "BebasNeue Regular", arial;
+      color: #ffffff;
+    }
+
+    .green {
+      color: #bbe93d;
+    }
+
+    .yellow {
+      color: #ffed00;
+      font-family: "BebasNeue Regular", arial;
+    }
+
+    .hcontainer h2 {
+      font-size: 55px;
+      font-style: italic;
+      margin: 0 0 50px 0;
+      padding: 0;
+      color: #fff;
+      letter-spacing: 0;
+      font-family: "BebasNeue Book", arial;
+      text-transform: uppercase;
+    }
+
+    .hcontainer h3 {
+      font-size: 30px;
+      margin: 20px 0;
+      padding: 0;
+    }
+
+    .hcontainer p {
+      text-transform: inherit;
+      font-family: "Macha", arial;
+      font-size: 20px;
+      line-height: 150%;
+      color: #fff;
+      text-align: left;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    section#mod1 {
+      text-align: center;
+      padding: 0 0 20px 0;
+      animation: 3s ease 0s normal none 1 running fadeintop;
+      background: url(https://recursos.clubedomalte.com.br/MediaCenter/kria-conselhos-topbanner.jpg) no-repeat center top #000;
+    }
+
+    @keyframes fadeintop {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .span-modcont {
+      text-align: center;
+      margin: 50px 0 0 0;
+      display: block;
+      position: relative;
+      float: left;
+      width: 100%;
+    }
+
+    .span-mod {
+      display: inline-block;
+      width: 30%;
+      margin: 0 auto;
+      border: 1px solid #777777;
+      padding: 0 0 30px 0;
+      margin: 10px;
+      position: relative;
+      vertical-align: top;
+      min-height: 300px;
+    }
+
+    .span-mod h3 {
+      color: #bbe93d;
+      font-family: "Macha";
+      font-size: 18px;
+      margin: 0;
+      padding: 20px;
+      text-align: left;
+      letter-spacing: 1px;
+      min-height: 80px;
+    }
+
+    .span-mod p {
+      font-size: 14px;
+      padding: 10px 20px;
+      margin: 0 0 15px 0;
+      line-height: 200%;
+      text-align: left;
+    }
+
+    .btn-moreinfo,
+    .btn-moreinfo2,
+    .btn-moreinfo3,
+    .btn-moreinfo4,
+    .btn-moreinfo5,
+    .btn-moreinfo6,
+    .btn-moreinfo7,
+    .btn-moreinfo8,
+    .btn-moreinfo9 {
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      right: 10px;
+      bottom: 30px;
+      background: #000;
+      color: #fff;
+      border-radius: 70px;
+      font-size: 20px;
+      padding: 9px 4px;
+      line-height: 0px;
+      height: 25px;
+      width: 25px;
+      font-size: 0px;
+      background: url(https://recursos.clubedomalte.com.br//i/kria-faq/more.png) no-repeat center center;
+    }
+
+    .expanded {
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      right: 10px;
+      bottom: 30px;
+      background: #000;
+      color: #fff;
+      border-radius: 70px;
+      font-size: 20px;
+      padding: 9px 4px;
+      line-height: 0px;
+      height: 25px;
+      width: 25px;
+      font-size: 0px;
+      background: url(https://recursos.clubedomalte.com.br//i/kria-faq/less.png) no-repeat center center;
+    }
+
+    .moreinfo,
+    .moreinfo2,
+    .moreinfo3,
+    .moreinfo4,
+    .moreinfo5,
+    .moreinfo6 {
+      display: none;
+    }
+
+    .btn-moreinfo::after {
+      content: "-";
+      font-size: 0px;
+    }
+
+    span.dotsoff,
+    span.dotsoff2,
+    span.dotsoff3,
+    span.dotsoff4,
+    span.dotsoff5,
+    span.dotsoff6 {
+      display: none;
+    }
+
+    span#dots,
+    span#dots2,
+    span#dots3,
+    span#dots4,
+    span#dots5,
+    span#dots6 {
+      color: #bbe93d;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 16px;
+      padding: 0 2px;
+    }
+
+
+
+    @media (min-width:300px) and (max-width:960px) {
+      .span-mod {
+        width: 90%;
+      }
+    }
+
+    @media (min-width: 300px) and (max-width: 979px) {
+      .hcontainer {
+        width: 90%;
+      }
+    }
+
+
+
+    @media (min-width: 300px) and (max-width: 679px) {
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      img.resp {
+        width: 90%;
+      }
+
+      p.text1,
+      p.text2,
+      p.text3 {
+        font-size: 18px;
+      }
+    }
+
+    p.text1 {
+      font-size: 20px;
+      font-weight: 700;
+      font-style: italic;
+      letter-spacing: 1px;
+    }
+
+    p.text2 {
+      text-align: center;
+      font-size: 22px;
+      margin: 60px 0 40px 0;
+      width: 100%;
+      position: relative;
+      float: left;
+    }
+
+    p.text3 {
+      text-align: center;
+      font-size: 22px;
+      margin: 60px 0 0 0;
+      width: 100%;
+      font-weight: 700;
+    }
+
+    #conversion-modal-kria-conselhos-fae0d34c79a3a1f6076c .modal-content section form input,
+    #conversion-modal-kria-conselhos-fae0d34c79a3a1f6076c .modal-content section form select,
+    #conversion-modal-kria-conselhos-fae0d34c79a3a1f6076c .modal-content section form textarea,
+    #conversion-modal-kria-conselhos-fae0d34c79a3a1f6076c .modal-content section form .select2-choice,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c section input,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c section select,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c section textarea,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c section .select2-choice,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c form input,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c form select,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c form .select2-container,
+    #conversion-kria-conselhos-fae0d34c79a3a1f6076c form textarea {
+      border: 0 none !important;
+      border-radius: 15px !important;
+      font-family: "Macha" !important;
+      padding: 5px 20px !important;
+    }
+
+    #kria-topo-do-hotsite-63456397000c7c0f40f6 #form-kria-topo-do-hotsite-63456397000c7c0f40f6 {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      outline: none !important;
+      border: none !important;
+      -webkit-box-sizing: border-box !important;
+      -moz-box-sizing: border-box !important;
+      box-sizing: border-box !important;
+      font-family: "Macha", arial !important;
+      background: transparent !important;
+      width: 450px !important;
+    }
+
+    #form-container-kria-conselhos-fae0d34c79a3a1f6076c #conversion-kria-conselhos-fae0d34c79a3a1f6076c #conversion-form-kria-conselhos-fae0d34c79a3a1f6076c div.actions input.call_button {
+      background: #ffed00 !important;
+      margin: 0 !important;
+      padding: 10px 80px !important;
+      color: #000 !important;
+      width: 100% !important;
+      border-radius: 50px !important;
+      border: 0 none !important;
+    }
+
+    #form-container-kria-conselhos-fae0d34c79a3a1f6076c #conversion-kria-conselhos-fae0d34c79a3a1f6076c {
+      background-color: transparent !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    #form-container-kria-conselhos-fae0d34c79a3a1f6076c #conversion-kria-topo-do-hotsite-63456397000c7c0f40f6 form input,
+    #conversion-kria-topo-do-hotsite-63456397000c7c0f40f6 form select,
+    #form-container-kria-conselhos-fae0d34c79a3a1f6076c #conversion-kria-topo-do-hotsite-63456397000c7c0f40f6 form .select2-container,
+    #form-container-kria-conselhos-fae0d34c79a3a1f6076c #conversion-kria-topo-do-hotsite-63456397000c7c0f40f6 form textarea {
+      border: 0px solid transparent !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+      padding: 5px 20px !important;
+      font-family: "Macha", arial !important;
+    }
+
+    #form-container-kria-conselhos-fae0d34c79a3a1f6076c #conversion-kria-conselhos-fae0d34c79a3a1f6076c #conversion-form-kria-conselhos-fae0d34c79a3a1f6076c div.actions input.call_button {
+      background: #ffed00 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      padding: 10px 80px !important;
+      font-size: 16px !important;
+    }
+
+    .form-container {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      width: 50%;
+    }
+
+    @media (min-width: 300px) and (max-width: 679px) {
+      .form-container {
+        width: 95%;
+      }
+    }
+    .numeros{
+      background: black;
+      width: 140px;
+      height: 50px;
+
+    }
+    .meta{
+      background: black;
+      width: 140px;
+      height: 50px;
+
+    }
+    .texto-explica{
+      width: 800px;
+    }
+    @media (min-width: 300px) and (max-width: 800px){
+      .texto-explica{width: 100%!important;}
+      .hcontainer h1{padding-left: 0px!important; }
+    }
+
+    .sectionClass {
+
+  position: relative;
+  display: block;
+}
+
+.fullWidth {
+  width: 100% !important;
+  display: table;
+  float: none;
+  padding: 0;
+  min-height: 1px;
+  height: 100%;
+  position: relative;
+}
+
+
+.sectiontitle {
+  background-position: center;
+  margin: 30px 0 0px;
+  text-align: center;
+  min-height: 20px;
+}
+
+.sectiontitle h2 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.headerLine {
+  width: 160px;
+  height: 2px;
+  display: inline-block;
+  background: #101F2E;
+}
+
+
+.projectFactsWrap{
+    display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+#projectFacts .fullWidth{
+  padding: 0;
+}
+
+.projectFactsWrap .item{
+  width: 20%;
+  height: 100%;
+  padding: 10px 0px;
+  text-align: left;
+}
+
+.projectFactsWrap .item:nth-child(1){
+
+}
+
+.projectFactsWrap .item:nth-child(2){
+
+}
+
+.projectFactsWrap .item:nth-child(3){
+  background: rgb(21, 38, 56);
+}
+
+.projectFactsWrap .item:nth-child(4){
+  background: rgb(23, 44, 66);
+}
+
+.projectFactsWrap .item p.number{
+  font-size: 40px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.projectFactsWrap .item p{
+  color:  rgb(187, 233, 61);
+  font-size: 18px;
+  margin: 0;
+
+  font-family: 'Open Sans';
+}
+
+
+.projectFactsWrap .item span{
+  width: 60px;
+  background: rgba(255, 255, 255, 0.8);
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.projectFactsWrap .item i{
+  vertical-align: middle;
+  font-size: 50px;
+  color:  rgb(187, 233, 61);
+}
+
+
+
+
+@media (max-width: 786px){
+  .projectFactsWrap .item {
+     flex: 0 0 50%;
+  }
+}
+
+/* AUTHOR LINK */
+
+
+footer{
+  z-index: 100;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  opacity: 0;
+  font-family: 'Open Sans';
+  width: 100%;
+    word-wrap: break-word;
+  line-height: 25px;
+  -webkit-transform: translateX(-200px);
+  transform: translateX(-200px);
+  margin: 0;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+
+footer .authorWindow a{
+  color: white;
+  text-decoration: none;
+}
+
+footer p strong {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.about-me-img {
+  width: 120px;
+  height: 120px;
+  left: 10px;
+  /* bottom: 30px; */
+  position: relative;
+  border-radius: 100px;
+}
+
+
+.about-me-img img {
+}
+
+
+.authorWindow{
+  width: 600px;
+  background: #75439a;
+  padding: 22px 20px 22px 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.authorWindowWrapper{
+  display: none;
+  left: 110px;
+  top: 0;
+  padding-left: 25px;
+  position: absolute;
+}
+
+
+
+
+
+.trans{
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+@media screen and (max-width: 768px) {
+    .authorWindow{
+         width: 210px;
+    }
+
+    .authorWindowWrapper{
+             bottom: -170px;
+  margin-bottom: 20px;
+    }
+
+    footer p{
+          font-size: 14px;
+    }
+}
+
+  </style>
+  <section id="mod1">
+    <div class="hcontainer">
+      <h1>Fa&ccedil;a parte do nosso conselho<br />
+        <span class="bgreen" style="font-family: BebasNeue;">Invista no clube do malte</span></h1>
+
+
+<div id="projectFacts" class="sectionClass">
+    <div class="fullWidth eight columns">
+      <h2 style="text-align: left; font-size: 25px;">Nossos Números</h2>
+        <div class="projectFactsWrap ">
+            <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+                <i class="fa fa-user"></i>
+                <p id="number1" class="number" >294</p>
+
+                <p >ACIONISTAS</p>
+            </div>
+            <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
+                <i class="fas fa-hand-holding-usd"></i>
+                <p id="" class="number">60%</p>
+
+                <p>DA META ATINGIDA</p>
+            </div>
+
+        </div>
+    </div>
+</div><br>
+        <div class="texto-explica">
+          <p>Mais do que acelerar o crescimento da empresa, queremos trazer para o centro de nossas decisões a nossa visão: <span style="font-weight: bold;">"Construir a maior e mais engajada comunidade de apaixonados por cerveja do Brasil".</span></p>
+          <p>Por isso, nessa segunda etapa da nossa captação, gostaríamos de apresentar para vocês o CAC, o <span style="font-weight: bold;">Conselho de Apaixonados por Cerveja</span>, uma iniciativa inédita do Clube do Malte que escolherá 10 acionistas para compor 2 conselhos da empresa de diferentes áreas - o Conselho Técnico e o Conselho de Gestão.</p>
+          <p style="font-weight: bold; color: #b3f851;">Investir em startups está no seu radar?<br>
+            Então você precisa conhecer essa ideia!</p>
+        </div>
+
+
+
+      <div class="span-modcont">
+        <div class="span-mod">
+          <h3>1. O que buscamos no Conselho T&eacute;cnico?</h3>
+
+          <p>Abriremos 5 cadeiras buscando profissionais com expertise nas seguintes &aacute;reas:<span id="dots">...</span><span class="moreinfo"> <br>. Data Science,<br>   . BI, <br>. Big Data,<br />
+              . Performance,<br />
+              . Marketing digital,<br />
+              . Log&iacute;stica,<br />
+              . Tecnologia.<br />
+
+            </span></p>
+
+          <div class="btn-moreinfo">+</div>
+        </div>
+
+        <div class="span-mod">
+          <h3>2. O que buscamos no Conselho de Gest&atilde;o?</h3>
+
+          <p>Abriremos 5 cadeiras buscando profissionais com expertise nas seguintes &aacute;reas:<span id="dots2">...</span><span class="moreinfo2"> <br>. Economia, <br> . finan&ccedil;as,<br />
+              . Controladoria,<br />
+              . Estrat&eacute;gia.<br />
+        </span></p>
+
+          <div class="btn-moreinfo2">+</div>
+        </div>
+
+        <div class="span-mod">
+          <h3>3. Como vai funcionar o fluxo de comunica&ccedil;&atilde;o?</h3>
+
+          <p>Criaremos uma ferramenta que funcionar&aacute; como interface entre o Clube do Malte e os conselheiros.<br />
+            Todos os meses<span id="dots3">...</span><span class="moreinfo3"> publicaremos um report descrevendo as principais a&ccedil;&otilde;es desenvolvidas e um painel com o desempenho da empresa nos principais indicadores do neg&oacute;cio.<br />
+              Abriremos um canal para que cada conselheiro nos devolva seus feedbacks ao final do report. Agenda sugerida:<br />
+              1x por m&ecirc;s: report + perguntas e respostas<br />
+              1x por trimestre: reuni&otilde;es virtuais individuais com todos os conselheiros por<br />
+              1x por ano: reuni&atilde;o de todos os conselheiros na sede da empresa reunindo todos que tiverem disponibilidade de participar,</span></p>
+
+          <div class="btn-moreinfo3">+</div>
+        </div>
+
+        <div class="span-mod">
+          <h3>4. Quanto $ preciso aportar para poder me candidatar a uma cadeira?</h3>
+
+          <p>Estipulamos um cheque m&iacute;nimo de investimento de <span id="dots4">...</span><span class="moreinfo4">R$ 25.000,00 para se credenciar a sele&ccedil;&atilde;o.</span></p>
+
+          <div class="btn-moreinfo4">+</div>
+        </div>
+
+        <div class="span-mod">
+          <h3>5. Como vai funcionar a sele&ccedil;&atilde;o?</h3>
+
+          <p>Disponibilizaremos um e-mail para a a&ccedil;&atilde;o onde receberemos a referencia de cada pretendente, que pode ser<span id="dots5">...</span><span class="moreinfo5"> o perfil no Instagram ou um curr&iacute;culo. Analisaremos a
+              experi&ecirc;ncia profissional de cada candidato e faremos um match com as principais demandas e car&ecirc;ncias da empresa. Em uma etapa etapa final, promoveremos uma entrevista pessoal com o CEO da empresa.</span></p>
+
+          <div class="btn-moreinfo5">+</div>
+        </div>
+
+        <div class="span-mod">
+          <h3>6. Qual o retorno para os investidores conselheiros?</h3>
+
+          <p>Al&eacute;m do prazer de contribuir para um neg&oacute;cio com o qual se identifica, os conselheiros ganhar&atilde;o o Kit Brewmaster<span id="dots6">...</span><span class="moreinfo6"> Selection, uma sele&ccedil;&atilde;o com as
+              melhores cervejas da nossa loja e uma assinatura de cerveja gr&aacute;tis durante todo o per&iacute;odo de colabora&ccedil;&atilde;o. Outros benef&iacute;cios podem ser combinados diretamente entre a empresa e os pretendentes.que
+              traduza mais fielmente a nossa opera&ccedil;&atilde;o, contratamos a Legacy Partnets, uma consultoria de M&amp;A especializada no desenvolvimento desse tipo de projeto. Eles utilizaram as duas metodologias e chegaram em um fator de
+              convers&atilde;o.</span></p>
+
+          <div class="btn-moreinfo6">+</div>
+        </div>
+        <script>
+          $(".btn-moreinfo").click(function() {
+            $(".moreinfo").slideToggle('slow');
+            $(this).toggleClass('expanded');
+           $("#dots").toggleClass('dotsoff');
+          });
+          $(".btn-moreinfo2").click(function() {
+            $(".moreinfo2").slideToggle('slow');
+            $(this).toggleClass('expanded');
+            $("#dots2").toggleClass('dotsoff2');
+
+          });
+          $(".btn-moreinfo3").click(function() {
+            $(".moreinfo3").slideToggle('slow');
+            $(this).toggleClass('expanded');
+            $("#dots3").toggleClass('dotsoff3');
+          });
+          $(".btn-moreinfo4").click(function() {
+            $(".moreinfo4").slideToggle('slow');
+            $(this).toggleClass('expanded');
+            $("#dots4").toggleClass('dotsoff4');
+          });
+          $(".btn-moreinfo5").click(function() {
+            $(".moreinfo5").slideToggle('slow');
+            $(this).toggleClass('expanded');
+            $("#dots5").toggleClass('dotsoff5');
+          });
+          $(".btn-moreinfo6").click(function() {
+            $(".moreinfo6").slideToggle('slow');
+            $(this).toggleClass('expanded');
+            $("#dots6").toggleClass('dotsoff6');
+          });
+        </script>
+
+      </div>
+
+      <div class="form-container">
+        <p style="text-align: center; font-size: 35px; font-weight: bold;">E ai? <span style="color: yellow;">Vamos juntos?</span></p>
+        <h2 style="text-align: center; font-size:25px;     padding-top: 15px;">Cadastre seu E-mail <span class="yellow">e saiba como Participar.</span></h2>
+
+        <div id="kria-conselhos-fae0d34c79a3a1f6076c" role="main"><span style="display:none;">&nbsp;</span></div>
+        <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+        <script type="text/javascript">
+          new RDStationForms('kria-conselhos-fae0d34c79a3a1f6076c-html', 'UA-26641128-1').createForm();
+        </script>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+
+  $.fn.jQuerySimpleCounter = function( options ) {
+  var settings = $.extend({
+    start:  0,
+    end:    100,
+    easing: 'swing',
+    duration: 400,
+    complete: ''
+  }, options );
+
+  var thisElement = $(this);
+
+  $({count: settings.start}).animate({count: settings.end}, {
+  duration: settings.duration,
+  easing: settings.easing,
+  step: function() {
+  var mathCount = Math.ceil(this.count);
+  thisElement.text(mathCount);
+  },
+  complete: function() {
+       var mathCount = this.count > settings.maxNumber ? settings.maxNumber + '%' : this.count;
+       thisElement.text(mathCount);
+     }
+  });
+  };
+
+
+  $('#number1').jQuerySimpleCounter({end: 400,duration: 10000});
+  $('#number2').jQuerySimpleCounter({end: 47,duration: 3000});
+  $('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
+  $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+
+
+
+  /* AUTHOR LINK */
+  $('.about-me-img').hover(function(){
+      $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
+  }, function(){
+      $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
+  });
+  </script>
+</body>
+
+</html>
